@@ -1,0 +1,63 @@
+/* General */
+body {
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+Title
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+/* KPI Cards */
+.card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    margin: 10px;
+}
+
+.card h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #555;
+}
+
+.card p {
+    margin-top: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+/* Dropdown */
+.Select-control {
+    border-radius: 10px !important;
+}
+
+/* Graph Container */
+.graph-container {
+    background: white;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Flex Layout for Cards */
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex: 1;
+    min-width: 220px;
+}
